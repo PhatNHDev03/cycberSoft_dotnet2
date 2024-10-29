@@ -1,0 +1,15 @@
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\bin\Debug\net8.0\extraCodeSession2.exe
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\bin\Debug\net8.0\extraCodeSession2.deps.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\bin\Debug\net8.0\extraCodeSession2.runtimeconfig.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\bin\Debug\net8.0\extraCodeSession2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\bin\Debug\net8.0\extraCodeSession2.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.AssemblyInfoInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.AssemblyInfo.cs
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.csproj.CoreCompileInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.sourcelink.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\refint\extraCodeSession2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\extraCodeSession2.genruntimeconfig.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\extraCodeSession2\obj\Debug\net8.0\ref\extraCodeSession2.dll
