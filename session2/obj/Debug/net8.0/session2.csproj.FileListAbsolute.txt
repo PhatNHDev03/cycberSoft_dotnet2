@@ -1,0 +1,14 @@
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\bin\Debug\net8.0\session2.exe
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\bin\Debug\net8.0\session2.deps.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\bin\Debug\net8.0\session2.runtimeconfig.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\bin\Debug\net8.0\session2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\bin\Debug\net8.0\session2.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.AssemblyInfoInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.AssemblyInfo.cs
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.csproj.CoreCompileInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\refint\session2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\session2.genruntimeconfig.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session2\obj\Debug\net8.0\ref\session2.dll
