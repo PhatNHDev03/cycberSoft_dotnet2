@@ -1,0 +1,15 @@
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\bin\Debug\net8.0\OopSession9.exe
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\bin\Debug\net8.0\OopSession9.deps.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\bin\Debug\net8.0\OopSession9.runtimeconfig.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\bin\Debug\net8.0\OopSession9.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\bin\Debug\net8.0\OopSession9.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.AssemblyInfoInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.AssemblyInfo.cs
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.csproj.CoreCompileInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.sourcelink.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\refint\OopSession9.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\OopSession9.genruntimeconfig.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\OopSession9\obj\Debug\net8.0\ref\OopSession9.dll
