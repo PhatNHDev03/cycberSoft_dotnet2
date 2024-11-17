@@ -1,0 +1,15 @@
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\bin\Debug\net8.0\assignment11_17_2024.exe
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\bin\Debug\net8.0\assignment11_17_2024.deps.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\bin\Debug\net8.0\assignment11_17_2024.runtimeconfig.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\bin\Debug\net8.0\assignment11_17_2024.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\bin\Debug\net8.0\assignment11_17_2024.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.AssemblyInfoInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.AssemblyInfo.cs
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.csproj.CoreCompileInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.sourcelink.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\refint\assignment11_17_2024.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\assignment11_17_2024.genruntimeconfig.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\assignment11_17_2024\obj\Debug\net8.0\ref\assignment11_17_2024.dll
