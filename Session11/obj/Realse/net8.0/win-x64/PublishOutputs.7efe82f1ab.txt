@@ -1,0 +1,6 @@
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Session11\bin\Realse\net8.0\win-x64\publish\Session11.exe
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Session11\bin\Realse\net8.0\win-x64\publish\Session11.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Session11\bin\Realse\net8.0\win-x64\publish\Session11.deps.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Session11\bin\Realse\net8.0\win-x64\publish\Session11.runtimeconfig.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Session11\bin\Realse\net8.0\win-x64\publish\Session11.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Session11\bin\Realse\net8.0\win-x64\publish\Newtonsoft.Json.dll
