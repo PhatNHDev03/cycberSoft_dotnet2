@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\Session11\\Session11.csproj",
-      "projectName": "Session11",
-      "projectPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\Session11\\Session11.csproj",
+      "projectUniqueName": "d:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\AssigSession13.csproj",
+      "projectName": "AssigSession13",
+      "projectPath": "d:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\AssigSession13.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\Session11\\obj\\",
+      "outputPath": "d:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
