@@ -1,0 +1,20 @@
+[
+    {
+        "id": "P0001",
+        "name": "Chao ca",
+        "price": 3.0,
+        "quantity": 10
+    },
+    {
+        "id": "P0002",
+        "name": "Bun bo",
+        "price": 4.0,
+        "quantity": 8
+    },
+    {
+        "id": "P0003",
+        "name": "Com chien Duong Chau",
+        "price": 7.0,
+        "quantity": 7
+    }
+]

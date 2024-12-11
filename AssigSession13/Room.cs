@@ -185,7 +185,8 @@ class Room
         {
             var name = Regex.Split(s.name, @"\s+");
             return name[2].Length > 0 ? name[2] : "";
-        }))
+        }
+        ))
         {
             student.infor();
         }
