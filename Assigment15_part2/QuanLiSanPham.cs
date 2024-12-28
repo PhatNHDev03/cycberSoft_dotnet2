@@ -36,7 +36,6 @@ class QuanLiSanPham
 
     public void removeAProduct(SanPham sanPham){
         sanPhams.Remove(sanPham);
-    
     }
 
 
