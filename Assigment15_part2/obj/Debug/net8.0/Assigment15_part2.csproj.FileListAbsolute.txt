@@ -1,0 +1,15 @@
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\bin\Debug\net8.0\Assigment15_part2.exe
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\bin\Debug\net8.0\Assigment15_part2.deps.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\bin\Debug\net8.0\Assigment15_part2.runtimeconfig.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\bin\Debug\net8.0\Assigment15_part2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\bin\Debug\net8.0\Assigment15_part2.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.AssemblyInfoInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.AssemblyInfo.cs
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.csproj.CoreCompileInputs.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.sourcelink.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\refint\Assigment15_part2.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.pdb
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\Assigment15_part2.genruntimeconfig.cache
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\Assigment15_part2\obj\Debug\net8.0\ref\Assigment15_part2.dll

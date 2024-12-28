@@ -1,0 +1,16 @@
+[
+    {
+        "id": "MO001",
+        "name": "Phat",
+        "productId": "P0001",
+        "quantity": 1,
+        "status": false
+    },
+    {
+        "id": "MO002",
+        "name": "Phat",
+        "productId": "P0002",
+        "quantity": 4,
+        "status": false
+    }
+]

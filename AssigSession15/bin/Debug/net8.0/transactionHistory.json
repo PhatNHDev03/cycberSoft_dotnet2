@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "transactionMoney": 10.0,
+        "date": "2024-12-19T12:38:16.6116752+07:00",
+        "note": "transaction is successful",
+        "transactionType": "Card Payment",
+        "status": true
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "transactionMoney": 1000.0,
+        "date": "2024-12-20T11:38:16.6147005+07:00",
+        "note": "transaction is not successful, your money is not enough",
+        "transactionType": "Card Payment",
+        "status": false
+    }
+]
