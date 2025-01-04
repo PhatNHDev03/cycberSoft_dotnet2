@@ -1,26 +1,136 @@
 <!DOCTYPE html>
 <header>
+    <!-- main css -->
     <link rel="stylesheet" href="./css/style.css">
-</header>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+     
+    </header>
 
 <body>
     <div class="header">
-        <!-- avatar -->
-        <img src="./img/logoicon.png" alt="">
-        <!-- menu -->
-        <!-- dung cap the ul va li -->
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Desination</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact us</a></li>
-        </ul>
+        <!-- them 1 the div de can le giua content khi zoom tu 100% xuong 50% theo chiều ngang -->
+        <!-- BEM : quy tac dat ten class : cha + __ +ten class con : cach nhau bang 2 dau gach ngang -->
+        <div class="header__content">
+            <!-- avatar -->
+            <img src="./img/logoicon.png" alt="">
+            <!-- menu -->
+            <!-- dung cap the ul va li -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Desination</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
 
     </div>
-    <div class="carousel"></div>
-    <div class="activities"></div>
-    <div class="contact"></div>
+    <div class="carousel">
+
+    </div>
+    <div class="activities">
+        <div class="activities__content">
+            <div class="activities_heading">
+                <img src="./img/Group 313.png" alt="">
+                <h2>Explore Destination & activities</h2>
+            </div>
+            <div class="activities_products">
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                            <div class="activities__love"><i class="fa fa-heart"></i></div>
+                        </div>
+                        <div class="activities__desc">
+                            <h3>Product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                            <div class="activities__love"><i class="fa fa-heart"></i></div>
+                        </div>
+                        <div class="activities__desc">
+                            <h3>Product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                            <div class="activities__love"><i class="fa fa-heart"></i></div>
+                        </div>
+                        <div class="activities__desc">
+                            <h3>Product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                            <div class="activities__love"><i class="fa fa-heart"></i></div>
+                        </div>
+                        <div class="activities__desc">
+                            <h3>Product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- thẻ clear ở đây nè để clear sau khi dùng float tránh bị lỗi các layout sau -->
+            <div class="clear"></div>
+            <div class="activities_view">
+                <button class="activities__viewall">
+                    View All
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="contact__left">
+                <img src="./img/homeicon.png" alt="">
+            </div>
+            <div class="contact__right">
+                <h2> Let's Stay in touch </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in beatae ipsa ad harum</p>
+
+                <div class="contact__app">
+                    <h3>Download Our App</h3>
+                    <div>
+                        <img src="./img/download-on-the-app-store-apple-1.png" alt="">
+                        <img src="./img/google-play-badge-1.png" alt="">
+                    </div>
+                </div>
+                <div class="contact__follow">
+                    <h3>Follow us</h3>
+                    <div class="contact_image">
+                        <!-- icon -->
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-youtube-square"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-square"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <div class="footer"></div>
 </body>

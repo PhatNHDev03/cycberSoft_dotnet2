@@ -1,8 +1,29 @@
+/* set ve gia tri default cua browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    background-color: #F8E1DB;
+}
+
+.header__content {
+    margin: 0 auto;
+    /* chuan chung la 1440px */
+    max-width: 1440px;
+}
+
+.header__content img {}
+
 .header ul {
     list-style: none;
 }
 
 .header li {
+    margin: 20px;
     display: inline;
 
 }
@@ -10,4 +31,207 @@
 .header a {
     text-decoration: none;
     color: black;
+}
+
+/* Carousel */
+.carousel {
+    background-image: url(../img/BG.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* activities */
+.activities {
+    /* 50px top-bottom , 0 left- right */
+    /* padding: 50px top-bottom left rigt */
+    /* padding : 10px 15px 20px 25px --> top right bottom left -->theo chiều kim đồng hồ  */
+    padding: 50px 0;
+    background-color: #FAF4F2;
+}
+
+.activities__content {
+    margin: 0 auto;
+    max-width: 1440px;
+
+}
+
+.activities_heading {
+    text-align: center;
+}
+
+.activities_heading h2 {
+    color: #8D8D8D;
+}
+
+/* dung padding: cho can giua deu 2 ben trong noi cua tung phan tu con cach nhau giua 2 the thi dung margin */
+
+/* 25%*4 =100% --> truyen them padding: 10px thi se bi du  */
+/* dung box-sizing: border-box; để tính lại sao cho cùng 1 cái hàng bắt buộc phải có nha ==> nó itnhs toán giùm px */
+/* float la của đồ án cũ rồi */
+.activities__item {
+    /* cho the div thanh 1 hang */
+    float: left;
+    width: 25%;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.activities__card {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+}
+
+.activities__img {
+    border-radius: 20px;
+    /* danh dau class nay la class cha */
+    position: relative;
+}
+
+.activities__img img {
+
+    border-radius: 20px;
+}
+
+.activities__love {
+
+    color: orangered;
+    font-size: 17px;
+    width: 42px;
+    height: 42px;
+    background-color: #b4b4b49a;
+    line-height: 42px;
+    /* danh dau class nay la class con */
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border-radius: 10px;
+    /* 0.5 = 50% */
+    /* opacity: 0.8; */
+    cursor: pointer;
+}
+
+/* set position giua card va love */
+/* cha thi relative */
+
+
+.activities__desc h3 {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.activities__desc p {
+    margin-top: 12px;
+    color: #919191;
+    margin-bottom: 25px;
+}
+
+.activities__desc button {
+    padding: 10px 50px;
+    /* border: 1px solid; */
+    /* transparent la ẩn cái viền đi */
+    border: transparent;
+    border-radius: 25px;
+    background-color: #E8E8E8;
+    font-size: 15px;
+    color: #929292;
+    font-weight: 540;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* khi hover vao button thi doi mau chu~ */
+.activities__desc button:hover {
+    color: white;
+    background-color: burlywood;
+}
+
+/* dùng xong float thì phải clear để cho những phần layout sau ko bị lỗi layout ==> dùng thẻ clear để clear nó đi*/
+.clear {
+    clear: both;
+}
+
+.activities_view {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.activities__viewall {
+    color: #E87457;
+    border: 1px solid;
+    border-color: #E87457;
+    border-radius: 25px;
+    padding: 13px 70px;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.activities__viewall:hover {
+    color: white;
+    background-color: #E87457;
+}
+
+/* contact */
+.contact {
+
+    background-color: #F8E1DB;
+    border-radius: 20px;
+}
+
+
+.contact .container {
+    max-width: 1440px;
+
+
+    height: 400px;
+}
+
+.contact__right h2,
+.contact__right p {
+    margin: 10px 0;
+    color: #8D8D8D;
+}
+
+.contact__left,
+.contact__right {
+
+    float: left;
+    width: 50%;
+    padding: 20px 60px;
+    border: transparent;
+}
+
+.contact__left {
+    background-image: url(../img/mask.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact__app,
+.contact__follow {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+
+.contact__app,
+.contact__follow h3 {
+    color: #8D8D8D;
+}
+
+.contact__app img {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+}
+
+.contact__follow i {
+    color: orangered;
+    margin-right: 10px;
+    font-size: 30px;
 }

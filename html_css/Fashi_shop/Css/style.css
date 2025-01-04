@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    width: 100%;
+}
+
+/* header top */
+.header__top {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header__top .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* header left */
+.header__top__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__top__mail,
+.header__top__phone {
+    padding: 15px 5px;
+    align-items: center;
+    color: #252525;
+}
+
+.header__top__mail {
+    border-right: 1px solid #e5e5e5;
+    padding-right: 20px;
+}
+
+.header__top__mail i {
+    padding-right: 5px;
+}
+
+.header__top__phone i {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+
+/* header right */
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__social,
+.header__lang {
+    border-right: 1px solid #e5e5e5;
+    padding: 15px 20px;
+}
+
+.header__social a {
+    font-size: 15px;
+    color: #252525;
+    padding-right: 10px;
+}
+
+
+
+.header__login i {
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* header center */
+
+.header__center {
+    padding: 39px 0;
+    width: 100%;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* header search */
+.header___center__search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    height: 50px;
+
+}
+
+/* All category button */
+.btn__category {
+    font-size: 12px;
+    border: transparent;
+    background-color: #FFFFFF;
+    border: 1px solid #e5e5e5;
+    height: 100%;
+    
+}
+
+.header___center__search .search__infor {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.header___center__search .search__infor input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.header___center__search .btn__search {
+    font-size: 16px;
+    color: white;
+    border: 1px solid #e7ab3c;
+    background-color: #e7ab3c;
+    padding: 12px 16px;
+    cursor: pointer;
+}
