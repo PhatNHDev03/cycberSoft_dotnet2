@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .demo { */
+/* apply chi cho nhung cai co san cua tailwind thoi */
+/* @apply flex justify-between; */
+/* con ko thi css binh thuong de tu custom */
+/* align-items: center; */
+
+/* } */
+
+/* .demo .demo1 { */
+/* @apply hover:bg-green-500 duration-200; */
+/* duration-200 --> transition: all 200ms  */
+/* } */
+
+body {
+    @apply bg-bodyColor;
+}
+
+/* moblie fít thi tung item tren tung hang */
+.crypto {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.button__gradient {
+    @apply bg-gradient-text text-white rounded-3xl px-6 py-3;
+}
