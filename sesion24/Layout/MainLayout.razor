@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container-fluid ">
+    @* side bar *@
+    <div class="row vh-100 ">
+        @* d-flex : display flex, flex-column : sap xep cai item theo chieu *@
+        @* h-100 la set up div full man hinh chieu cao *@
+        <div class="col-3 position-fixed h-100 d-flex flex-column align-items-center justify-content-center"
+            style="background-color: #bd5d38;">
+            @* avatar *@
+            <div class="d-flex align-items-center justify-content-center">
+                <img class="rounded-circle" style="width: 160px; height: 160px;" src="profile.jpg" alt="">
+            </div>
+            <NavMenu />
+        </div>
+        @* main content *@
+        @* ms-auto: day content sang ben phai để tránh việc side bar đè lên content nội dung *@
+        <div class="col-9 ms-auto h-100">
+            @Body
+        </div>
+    </div>
+
+
+</div>
