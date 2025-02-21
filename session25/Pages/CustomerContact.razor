@@ -1,4 +1,4 @@
-@page "/CustomerContact"
+@page "/"
 
 <h1>Contact Form</h1>
 <EditForm Model="userContact" OnValidSubmit="HandleValidSubmit">
@@ -6,37 +6,37 @@
     <ValidationSummary />
     <div class="container mt-6">
         <div class="d-flex gap-5">
-            <div class="form__container w-50">
-                <div class="form-group">
+            <div class="form__container w-50 ">
+                <div class="form-group mb-3">
                     <label>Full Name</label>
                     <InputText placeholder="Enter your full name" class="form-control"
                         @bind-Value="userContact.FullName" />
                     <ValidationMessage For="@(() => userContact.FullName)" />
                 </div>
-                <div class="form-group">
+                <div class="form-group  mb-3">
                     <label>Email</label>
                     <InputText placeholder="Enter your mail" class="form-control" @bind-Value="userContact.Email" />
                     <ValidationMessage For="@(() => userContact.Email)" />
                 </div>
-                <div class="form-group">
+                <div class="form-group  mb-3">
                     <label>Phone Number</label>
                     <InputText placeholder="Enter your Phone number" class="form-control"
                         @bind-Value="userContact.PhoneNumber" />
                     <ValidationMessage For="@(() => userContact.PhoneNumber)" />
                 </div>
-                <div class="form-group">
+                <div class="form-group  mb-3">
                     <label>Address</label>
                     <InputText placeholder="Enter your address" class="form-control"
                         @bind-Value="userContact.Address" />
                     <ValidationMessage For="@(() => userContact.Address)" />
                 </div>
-                <div class="form-group">
+                <div class="form-group  mb-3">
                     <label>Message</label>
                     <InputTextArea @bind-Value="userContact.Message" class="form-control" rows="4"
                         style="resize: none;" />
                     <ValidationMessage For="@(() => userContact.Message)" />
                 </div>
-                <div class="form-group">
+                <div class="form-group  mb-3">
                     <label>Select service</label>
                     <InputSelect class="form-control" @bind-Value="userContact.service">
                         <option value=""> choose...</option>
@@ -44,13 +44,15 @@
                         <option value="Service2"> Service2</option>
                         <option value="Service3"> Service3</option>
                     </InputSelect>
+                    <ValidationMessage For="@(() => userContact.service)" />
                 </div>
-                <div class="form-group">
-                    <InputCheckbox @bind-Value="userContact.IsAgree" />
-                    <label><i> I agree to the terms and conditions</i></label>
+                <div class="form-group mb-3 d-flex align-items-center gap-2">
+                    <InputCheckbox id="agree" @bind-Value="userContact.IsAgree" />
+                    <label for="agree"><i>I agree to the terms and conditions</i></label>
                     <ValidationMessage For="@(() => userContact.IsAgree)" />
+
                 </div>
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
             </div>
             <div class="form__informat w-50">
                 <p><strong>FullName: </strong>@userContact.FullName</p>
@@ -59,17 +61,38 @@
                 <p><strong>Address: </strong>@userContact.Address</p>
                 <p><strong>Message: </strong>@userContact.Message</p>
                 <p><strong>Service: </strong>@userContact.service</p>
+                <p><strong>Agree Status: </strong>@userContact.IsAgree</p>
+
             </div>
         </div>
     </div>
 </EditForm>
 
 @code {
-    UserContact userContact = new UserContact();
+
+    private UserContact userContact = new UserContact();
+
+    protected override void OnInitialized()
+    {
+        userContact = new UserContact
+        {
+            IsAgree = false // Default value
+        };
+    }
+
+
+
+    private void HandleSubmit(EditContext context)
+    {
+        bool isValid = context.Validate();
+        if (isValid)
+        {
+            Console.WriteLine($"Form submitted with IsAgree value: {userContact.IsAgree}");
+        }
+    }
 
     private void HandleValidSubmit()
     {
         Console.WriteLine("success");
-        var c = 1;
     }
 }

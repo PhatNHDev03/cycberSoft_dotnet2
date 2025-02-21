@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\session26_validation_conponent_razor.props" />
+</Project>
