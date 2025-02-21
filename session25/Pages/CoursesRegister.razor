@@ -1,0 +1,117 @@
+@page "/Courses_register"
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+
+<h2>Course Registration</h2>
+
+<EditForm Model="courseModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group mb-3">
+                <label>Full Name</label>
+                <InputText class="form-control" @bind-Value="courseModel.Fullname" />
+                <ValidationMessage For="@(() => courseModel.Fullname)" />
+            </div>
+            <div class="form-group mb-3">
+                <label>Email</label>
+                <InputText class="form-control" @bind-Value="courseModel.Email" />
+                <ValidationMessage For="@(() => courseModel.Email)" />
+            </div>
+            <div class="form-group mb-3">
+                <label>Phone Number</label>
+                <InputText class="form-control" @bind-Value="courseModel.PhoneNumber" />
+                <ValidationMessage For="@(() => courseModel.PhoneNumber)" />
+            </div>
+            <div class="form-group mb-3">
+                <label>Course</label>
+                <InputText class="form-control" @bind-Value="courseModel.Course" />
+                <ValidationMessage For="@(() => courseModel.Course)" />
+            </div>
+            <div class="form-group mb-3">
+                <label>Study Mode</label>
+                <InputText class="form-control" @bind-Value="courseModel.StudyMode" />
+                <ValidationMessage For="@(() => courseModel.StudyMode)" />
+            </div>
+            <div class="form-group mb-3">
+                <label>Start Date</label>
+                <input id="datepicker" type="date" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")"
+                    @bind="courseModel.StartDate" />
+                <ValidationMessage For="@(() => courseModel.StartDate)" />
+            </div>
+
+
+            <div class="form-group mb-3">
+                <label>Message</label>
+                <InputTextArea class="form-control" rows="4" style="resize: none;" @bind-Value="courseModel.Message" />
+            </div>
+            <div class="form-group mb-3 d-flex align-items-center gap-2">
+                <InputCheckbox id="agree" @bind-Value="courseModel.IsAgree" />
+                <label for="agree"><i>I agree to the terms and conditions</i></label>
+                <ValidationMessage For="@(() => courseModel.IsAgree)" />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </div>
+        <div class="col-md-6">
+            <h3>Course Information</h3>
+            <div class="card p-3">
+                <p><strong>Full Name: </strong>@courseModel.Fullname</p>
+                <p><strong>Email: </strong>@courseModel.Email</p>
+                <p><strong>Phone Number: </strong>@courseModel.PhoneNumber</p>
+                <p><strong>Course: </strong>@courseModel.Course</p>
+                <p><strong>Study Mode: </strong>@courseModel.StudyMode</p>
+                <p><strong>Start Date: </strong>@courseModel.StartDate.ToShortDateString()</p>
+                <p><strong>Message: </strong>@courseModel.Message</p>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private Courses courseModel = new Courses();
+
+    private string MinDate => DateTime.Now.ToString("yyyy-MM-dd");
+    private void HandleValidSubmit()
+    {
+        Console.WriteLine("🎉 Form submitted successfully!");
+        Console.WriteLine($"Name: {courseModel.Fullname}, Email: {courseModel.Email}, Course: {courseModel.Course}");
+    }
+
+    public class Courses
+    {
+        [Required(ErrorMessage = "Please enter your name")]
+        [MinLength(3, ErrorMessage = "Name must be at least 3 characters long")]
+        public string Fullname { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Please enter your email")]
+        [EmailAddress(ErrorMessage = "Please enter a valid email address")]
+        public string Email { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Please enter phone number")]
+        [RegularExpression(@"^\d{10,12}$", ErrorMessage = "Phone number must be 10 to 12 digits")]
+        public string PhoneNumber { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Please enter course")]
+        public string Course { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Please choose study mode")]
+        public string StudyMode { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Please enter start date")]
+        public DateTime StartDate { get; set; } = DateTime.Now;
+
+        public string Message { get; set; } = string.Empty;
+
+        [MustBeTrue(ErrorMessage = "You must agree before submitting")]
+        public bool IsAgree { get; set; } = false;
+    }
+
+    public class MustBeTrueAttribute : ValidationAttribute
+    {
+        public override bool IsValid(object? value)
+        {
+            return value is bool b && b;
+        }
+    }
+}
