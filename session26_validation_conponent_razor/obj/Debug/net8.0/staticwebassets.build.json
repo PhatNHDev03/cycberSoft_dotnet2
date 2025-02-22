@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NGh+yCs3afh6t2DYL1gPMKYyjNQYutjrL5h10gIWaeE=",
+  "Hash": "nBusejWygJbqGMwkfFWOZwtrbaZxuq7wMWaX0W/wfKY=",
   "Source": "session26_validation_conponent_razor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7938,6 +7938,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+    },
+    {
+      "Identity": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session26_validation_conponent_razor\\wwwroot\\SH2025.jpg",
+      "SourceId": "session26_validation_conponent_razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session26_validation_conponent_razor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "SH2025.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SH2025.jpg"
     }
   ]
 }

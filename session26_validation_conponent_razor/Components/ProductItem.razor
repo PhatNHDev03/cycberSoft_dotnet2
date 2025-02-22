@@ -1,0 +1,53 @@
+<div class="card shadow-lsm" style="padding: 10px;">
+    <img src="@Product.ImageUrl" alt="" class="card-img-top" style="width: 100%">
+    <div class="card-body text-center">
+        <h4 class="card-title">@Product.Name</h4>
+        <p class="card-text text-danger fw-bold">@Product.Price.ToString()</p>
+    </div>
+    @* render html css tu component cha gui ve *@
+    <div>
+        @ChildContent
+    </div>
+    <button class="btn btn-secondary mt-3" @onclick="ShowDetail">view details</button>
+    <button class="btn btn-primary mt-3"> Add to card</button>
+</div>
+@if (isShowDetail)
+{
+    <div class="modal fade show d-block" tabindex="-1" style="background: rgba(0, 0, 0, 0.5);">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@Product.Name</h5>
+                    <button type="button" class="btn-close" @onclick="CloseModal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="@Product.ImageUrl" class="img-fluid mb-3" alt="@Product.Name">
+                    <p class="text-muted">@Product.Name</p>
+                    <h4 class="text-danger">@Product.Price.ToString()</h4>
+                    <p>Mô tả sản phẩm chi tiết sẽ ở đây...</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="CloseModal">Đóng</button>
+                    <button class="btn btn-primary" @onclick="HandleAddToCart">🛒 Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@code {
+
+    [Parameter] public ProductModel Product { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    private bool isShowDetail = false;
+    private void ShowDetail()
+    {
+        isShowDetail = true;
+
+    }
+    private void CloseModal()
+    {
+        isShowDetail = false;
+    }
+    private void HandleAddToCart() { }
+
+}

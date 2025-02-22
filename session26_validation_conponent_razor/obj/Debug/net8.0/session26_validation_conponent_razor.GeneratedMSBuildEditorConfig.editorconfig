@@ -26,6 +26,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Work_space/cycberSoft/cycberSoft_dotnet2/session26_validation_conponent_razor/Components/ProductItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Work_space/cycberSoft/cycberSoft_dotnet2/session26_validation_conponent_razor/Pages/ContactForm.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Work_space/cycberSoft/cycberSoft_dotnet2/session26_validation_conponent_razor/Pages/CoursesRegister.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1JlZ2lzdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Work_space/cycberSoft/cycberSoft_dotnet2/session26_validation_conponent_razor/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work_space/cycberSoft/cycberSoft_dotnet2/session26_validation_conponent_razor/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Work_space/cycberSoft/cycberSoft_dotnet2/session26_validation_conponent_razor/Pages/Weather.razor]

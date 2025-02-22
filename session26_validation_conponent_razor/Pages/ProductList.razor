@@ -1,0 +1,43 @@
+@page "/Products"
+@using session26_validation_conponent_razor.Components
+
+<h2 class="text-center">Product list</h2>
+@* <ProductItem Product="products[0]" /> *@
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in products)
+        {
+            <div class="col-md-4 mb-4 ">
+                <ProductItem Product="item">
+                    @* muon truyen cho childContent thi truyen vao trong day thg cha se gui doan html cho thg con *@
+                    <p class="text-info text-center">sản phẩm chất lượng cao</p>
+                </ProductItem>
+            </div>
+        }
+    </div>
+</div>
+
+
+@code {
+    private List<ProductModel> products = new(){
+new ProductModel {
+Id = "1",
+Name = "SH 2024",
+Price = "60000000",ImageUrl="SH2025.jpg",quantity = 10
+},new ProductModel {
+Id = "2",
+Name = "SH 2025",
+Price = "65000000",ImageUrl="SH2025.jpg",quantity = 11
+},new ProductModel {
+Id = "3",
+Name = "SH 2023",
+Price = "59000000",ImageUrl="SH2025.jpg",quantity = 12
+},new ProductModel {
+Id = "4",
+Name = "SH 2024",
+Price = "59000000",ImageUrl="SH2025.jpg",quantity = 12
+}
+};
+
+}
