@@ -1,0 +1,27 @@
+@using System.Globalization
+@using assigment27.Models
+
+@if (Transaction != null)
+{
+    <tr class="text-white @(Transaction.TypeTransaction == "Deposit" ? "bg-success text-white" : "bg-danger text-white")">
+        <td>@Transaction.TypeTransaction</td>
+        <td>@Transaction.Money</td>
+        <td>@Transaction.Date.ToString("d MMM h:mmtt", CultureInfo.InvariantCulture)</td>
+
+
+    </tr>
+}
+else
+{
+    <tr>
+        <td colspan="3">Không có dữ liệu</td>
+    </tr>
+}
+
+@code {
+    [Parameter] public Transaction Transaction { get; set; }
+
+    protected override void OnInitialized()
+    {
+    }
+}

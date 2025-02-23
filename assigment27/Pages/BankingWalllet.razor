@@ -1,0 +1,205 @@
+@page "/BankingWalllet"
+@using assigment27.Models
+@using System.Globalization
+
+@* deposit modal *@
+<div class="modal fade" id="DepositModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">💵 Deposit</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <label>Amount</label>
+                <input type="text" class="w-100" @bind="depositAmount">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                <button type="button" class="btn btn-primary" @onclick="Deposit">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* withdraw modal *@
+<div class="modal fade" id="WithdrawModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">💸 Withdraw</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <label>Amount</label>
+                <input type="text" class="w-100" @bind="WithdrawAmount">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                <button type="button" class="btn btn-danger" @onclick="WithDraw">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container bg-black d-lg-flex justify-content-center align-items-center">
+    <div class="banking">
+        <h1 class="display-1 text-white mb-4 text-bold text-center ">my wallet</h1>
+        <h2 class="fw-bold text-center display-3" style="color: yellow;">$@wallet.Money</h2>
+        <h3 class="text-center text-white" style="margin-bottom: 30px;">Total balance</h3>
+        <div class="d-flex justify-content-center align-items-center gap-2">
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#DepositModal">Deposit</button>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#WithdrawModal">Withdraw</button>
+        </div>
+        <div class="content">
+            <h2 class="fw-bold text-center display-3 mb-10" style="color: white;">Transaction History</h2>
+            <div class="content text-white">
+                <table class="table table-bordered rounded shadow-lg overflow-hidden">
+                    <thead>
+                        <tr class="bg-dark text-white">
+                            <th>Type</th>
+                            <th>Money</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in transactions.OrderByDescending(x => x.Id))
+                        {
+                            <TransactionChild Transaction="@item" />
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    function closeModal(modalId) {
+        var modal = bootstrap.Modal.getInstance(document.getElementById(modalId));
+        if (modal) {
+            modal.hide();
+        }
+    }
+
+    function notify(message) {
+        alert(message);
+    }
+    window.notifyErrorDeposit = (message) => {
+        alert(message);
+    };
+
+</script>
+
+
+
+
+@code {
+    @inject IJSRuntime JS
+
+    private Wallet wallet = new Wallet
+    {
+        Money = 26868.75
+    };
+
+    private List<Transaction> transactions = new List<Transaction>
+{
+new Transaction
+{
+Id = 3,
+TypeTransaction = "Deposit",
+Money = 500.00, // Đổi dấu phẩy thành dấu chấm
+Date = DateTime.ParseExact("19 Jan 3:00pm", "d MMM h:mmtt", CultureInfo.InvariantCulture)
+}, new Transaction
+{
+Id = 2,
+TypeTransaction = "Withdraw",
+Money = 500.66, // Đổi dấu phẩy thành dấu chấm
+Date = DateTime.ParseExact("20 Jan 10:00am", "d MMM h:mmtt", CultureInfo.InvariantCulture)
+},new Transaction
+{
+Id = 1,
+TypeTransaction = "Withdraw",
+Money = 200.00, // Đổi dấu phẩy thành dấu chấm
+Date = DateTime.ParseExact("20 Jan 10:00am", "d MMM h:mmtt", CultureInfo.InvariantCulture)
+}
+};
+    private int lastIdIntrasaction()
+    {
+        int lastId = (transactions.OrderByDescending(x => x.Id).FirstOrDefault()).Id;
+        return lastId;
+    }
+    @* Deposit function *@
+    private string depositAmount = "";
+    private async Task Deposit()
+    {
+        if (!double.TryParse(depositAmount, out double amount))
+        {
+            await JS.InvokeVoidAsync("notifyErrorDeposit", "⚠️ Số tiền không hợp lệ");
+            return;
+        }
+        if (amount < 0)
+        {
+
+            await JS.InvokeVoidAsync("notifyErrorDeposit", "⚠️ Số tiền Phải là số dương");
+            return;
+        }
+        if (amount == 0)
+        {
+            await JS.InvokeVoidAsync("notifyErrorDeposit", "⚠️ Vui lòng nhập số tiền để nạp hợp lý nhaaaa! sẵn đây em nói luônnn 🤡");
+            return;
+        }
+
+        if (amount > 0)
+        {
+            wallet.Money += amount;
+            transactions.Add(new Transaction
+            {
+                Id = (lastIdIntrasaction() + 1),
+                TypeTransaction = "Deposit",
+                Money = amount,
+                Date = DateTime.Now
+            });
+
+            depositAmount = "";
+            await JS.InvokeVoidAsync("closeModal", "DepositModal");
+        }
+
+
+    }
+    @* WithDraw function *@
+    private string WithdrawAmount = "";
+
+    private async Task WithDraw()
+    {
+        if (!double.TryParse(WithdrawAmount, out double amount))
+        {
+            await JS.InvokeVoidAsync("notifyErrorDeposit", "⚠️ Số tiền không hợp lệ");
+            return;
+        }
+        if (amount < 0 || amount > wallet.Money)
+        {
+            await JS.InvokeVoidAsync("notifyErrorDeposit", "⚠️ Số dư hiện tại không đủ");
+            return;
+        }
+        if (amount == 0)
+        {
+            await JS.InvokeVoidAsync("notifyErrorDeposit", "⚠️ Vui lòng nhập số tiền để rút nhaaaa! sẵn đây em nói luônnn 🤡");
+            return;
+        }
+
+        wallet.Money -= amount;
+        transactions.Add(new Transaction
+        {
+            Id = (lastIdIntrasaction() + 1),
+            TypeTransaction = "WithDraw",
+            Money = amount,
+            Date = DateTime.Now
+        });
+
+        depositAmount = "";
+        await JS.InvokeVoidAsync("closeModal", "DepositModal");
+
+    }
+}

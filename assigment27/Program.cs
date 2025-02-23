@@ -9,3 +9,6 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
 await builder.Build().RunAsync();
+
+// tao component 
+// vao impỏt.rzỏ impỏt component thi no moi biet child component
