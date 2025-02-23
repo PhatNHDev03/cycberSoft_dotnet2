@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssignmentSql\\sesion28\\sesion28.csproj": {}
+    "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\assigment27\\assigment27.csproj": {}
   },
   "projects": {
-    "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssignmentSql\\sesion28\\sesion28.csproj": {
+    "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\assigment27\\assigment27.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssignmentSql\\sesion28\\sesion28.csproj",
-        "projectName": "sesion28",
-        "projectPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssignmentSql\\sesion28\\sesion28.csproj",
+        "projectUniqueName": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\assigment27\\assigment27.csproj",
+        "projectName": "assigment27",
+        "projectPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\assigment27\\assigment27.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssignmentSql\\sesion28\\obj\\",
+        "outputPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\assigment27\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

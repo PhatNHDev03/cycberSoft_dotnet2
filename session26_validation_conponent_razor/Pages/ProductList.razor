@@ -1,15 +1,61 @@
 @page "/Products"
 @using session26_validation_conponent_razor.Components
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center my-4">
+        <h2 class="text-center">Product list</h2>
+        <button class="btn btn-secondary position-relative" data-bs-toggle="modal" data-bs-target="#cartModal">
+            <i class="fa fa-shopping-cart"></i>
+            @* the span de hien thi so luobg san pham tren gio hang *@
+            <span class="position-absolute bg-danger rounded-pill top-0 start-100 translate-middle badge">
+                @cart.Sum(products => products.quantity)
+            </span>
+        </button>
+    </div>
+</div>
+@* gio hang *@
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">🛒 Giỏ hàng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                @if (cart.Any())
+                {
+                    <ul class="list-group">
+                        @foreach (var item in cart)
+                        {
+                            <li class="d-flex justify-content-between align-items-center list-group-item">
+                                <div>
+                                    <strong>@item.Name</strong>
+                                    <Span>@item.quantity</Span>
+                                </div>
+                                <span class="text-danger fw-bold">@(int.Parse(item.Price) * item.quantity)</span>
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p class="text-center text-muted">Giỏ hàng trống</p>
+                }
 
-<h2 class="text-center">Product list</h2>
-@* <ProductItem Product="products[0]" /> *@
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-success">Thanh toán</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row">
         @foreach (var item in products)
         {
             <div class="col-md-4 mb-4 ">
-                <ProductItem Product="item">
+                <ProductItem Product="item" OnAddToCart="HandleAddToCart">
                     @* muon truyen cho childContent thi truyen vao trong day thg cha se gui doan html cho thg con *@
                     <p class="text-info text-center">sản phẩm chất lượng cao</p>
                 </ProductItem>
@@ -39,5 +85,32 @@ Name = "SH 2024",
 Price = "59000000",ImageUrl="SH2025.jpg",quantity = 12
 }
 };
+    @* cart *@
+    private List<ProductModel> cart = new List<ProductModel>();
+
+    @* gui ham nay xuong component con *@
+    bool found = false;
+    private void HandleAddToCart(ProductModel productModel)
+    {
+        var existProduct = cart.FirstOrDefault(x => x.Id == productModel.Id);
+        if (existProduct != null)
+        {
+            existProduct.quantity++;
+        }
+        else
+        {
+            cart.Add(new ProductModel
+            {
+                Id = productModel.Id,
+                Name = productModel.Name,
+                Price = productModel.Price,
+                ImageUrl = productModel.ImageUrl,
+                quantity = 1
+            });
+        }
+
+
+    }
+
 
 }

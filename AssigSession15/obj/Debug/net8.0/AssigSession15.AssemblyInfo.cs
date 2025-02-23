@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssigSession15")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fdefddd55f67bb438ef122bbe1057091d43d7c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1e992224b54a91dfa5a4d110943b900b8f5b967")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssigSession15")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssigSession15")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

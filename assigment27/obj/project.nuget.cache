@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3e5EbWzryXk=",
+  "dgSpecHash": "BHwLggmqKOg=",
   "success": true,
-  "projectFilePath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssignmentSql\\sesion28\\sesion28.csproj",
+  "projectFilePath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\assigment27\\assigment27.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.7\\microsoft.aspnetcore.authorization.8.0.7.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.7\\microsoft.aspnetcore.components.8.0.7.nupkg.sha512",

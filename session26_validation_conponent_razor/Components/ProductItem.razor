@@ -9,7 +9,7 @@
         @ChildContent
     </div>
     <button class="btn btn-secondary mt-3" @onclick="ShowDetail">view details</button>
-    <button class="btn btn-primary mt-3"> Add to card</button>
+    <button class="btn btn-primary mt-3" @onclick="HandleAddToCart"> Add to card</button>
 </div>
 @if (isShowDetail)
 {
@@ -39,6 +39,9 @@
     [Parameter] public ProductModel Product { get; set; }
     [Parameter] public RenderFragment? ChildContent { get; set; }
     private bool isShowDetail = false;
+    @* defined call back de nhan event tu cha *@
+    [Parameter] public EventCallback<ProductModel> OnAddToCart { get; set; }
+
     private void ShowDetail()
     {
         isShowDetail = true;
@@ -48,6 +51,14 @@
     {
         isShowDetail = false;
     }
-    private void HandleAddToCart() { }
+    private async Task HandleAddToCart()
+    {
+        if (OnAddToCart.HasDelegate)
+        {
+            // nhan event va gui data ve cho thg cha
+            await OnAddToCart.InvokeAsync(Product);
+        }
+        CloseModal();
+    }
 
 }
