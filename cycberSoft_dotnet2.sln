@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session25", "session25\sess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session26_validation_conponent_razor", "session26_validation_conponent_razor\session26_validation_conponent_razor.csproj", "{AAE8887D-4105-40AE-BEF7-368CFA46DD5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assigment27", "assigment27\assigment27.csproj", "{17E1B141-6F99-4BE2-8FC0-D7EFD4806B29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{AAE8887D-4105-40AE-BEF7-368CFA46DD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAE8887D-4105-40AE-BEF7-368CFA46DD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAE8887D-4105-40AE-BEF7-368CFA46DD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E1B141-6F99-4BE2-8FC0-D7EFD4806B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E1B141-6F99-4BE2-8FC0-D7EFD4806B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E1B141-6F99-4BE2-8FC0-D7EFD4806B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E1B141-6F99-4BE2-8FC0-D7EFD4806B29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
