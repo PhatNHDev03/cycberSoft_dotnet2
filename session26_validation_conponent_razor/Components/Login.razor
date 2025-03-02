@@ -1,0 +1,28 @@
+@* tao inject den USerservice(denpendecy injection) *@
+@inject UserService Userservice
+
+@if (Userservice.IsAuthenticate())
+{
+    <p class="text-white">xin chao @Userservice.CurrentUser </p>
+    <button class="btn btn-danger" @onclick="signOut">Logout</button>
+}
+else
+{
+    <div class="container">
+        <input placeholder="Nhap ten cua ban" @bind="userName" />
+        <button class="btn btn-success" @onclick="Sigin">login</button>
+    </div>
+}
+
+@code {
+    private string userName = "";
+    private void Sigin()
+    {
+        @* gui userName len tren store *@
+        Userservice.login(userName);
+    }
+    private void signOut()
+    {
+        Userservice.logout();
+    }
+}

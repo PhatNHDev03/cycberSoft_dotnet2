@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "session26_validation_conponent_razor",
   "resources": {
-    "hash": "sha256-WVebcJcHKz0UTirdpHjOzJpOVWzxBk/aTvapL22pW/k=",
+    "hash": "sha256-DFmPP6tjMvcOtLBgUPorhwy6GfX8kZdArc5a3IBGNio=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.e2qoqxnk7n.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "session26_validation_conponent_razor.wasm": "sha256-6N/Eh7gcRwlO41NLEI0WfzYHtTqF8dVq6L/AlyddgY0="
+      "session26_validation_conponent_razor.wasm": "sha256-jyq2fSpIyVRcjwgNfzVrNpRUx3w9mCJceSDFE9fRZaQ="
     },
     "pdb": {
-      "session26_validation_conponent_razor.pdb": "sha256-YxQzoZPq2vH+pRYL7An6SzUvZfKmtRdY43XSLD/kIic="
+      "session26_validation_conponent_razor.pdb": "sha256-e+3NdrRSd/+aiSnsssKKUhhmnVuRiIC5bqEDOBODR6E="
     }
   },
   "cacheBootResources": true,
