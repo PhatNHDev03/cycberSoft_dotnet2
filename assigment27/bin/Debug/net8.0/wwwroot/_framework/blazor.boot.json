@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "assigment27",
   "resources": {
-    "hash": "sha256-Zr8kQmmttmpshl7F9qYSUm6A71azwCu70qgyZCFji0k=",
+    "hash": "sha256-FFWI5Br+/OsPMRoSh01Ojpc6lk17V9Q48A5gz5nKcdc=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.e2qoqxnk7n.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "assigment27.wasm": "sha256-kLHiTYgBLAnGOqb95iX1Z0M0UGRKe+YOcaBsb3SCEAA="
+      "assigment27.wasm": "sha256-Bc25+sbVNWe3Tpv6fs2DGrNkGV2Nijqn2+x9eEzlbhs="
     },
     "pdb": {
-      "assigment27.pdb": "sha256-gYBegRuE4BV7FaPQ+Drd89Vkxo2CyhZv9zXvuEC4CIc="
+      "assigment27.pdb": "sha256-xLXCDbDOomwMTm/0pm4tOVGQhNBP3APxskCymgGHvCc="
     }
   },
   "cacheBootResources": true,
