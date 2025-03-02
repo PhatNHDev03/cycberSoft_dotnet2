@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\obj\\Debug\\net8.0\\compressed\\oed26q57z5.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\obj\\Debug\\net8.0\\scopedcss\\bundle\\session28_life_cycle.styles.css",
+      "PackagePath": "staticwebassets\\session28_life_cycle.styles.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.session28_life_cycle.props",
+      "PackagePath": "build\\session28_life_cycle.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.session28_life_cycle.props",
+      "PackagePath": "buildMultiTargeting\\session28_life_cycle.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.session28_life_cycle.props",
+      "PackagePath": "buildTransitive\\session28_life_cycle.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.session28_life_cycle.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

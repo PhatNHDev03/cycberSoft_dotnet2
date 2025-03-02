@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\session28_life_cycle.props" />
+</Project>

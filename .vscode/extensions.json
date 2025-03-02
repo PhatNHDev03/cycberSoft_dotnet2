@@ -2,6 +2,7 @@
     "recommendations": [
         "adrianwilczynski.blazor-snippet-pack",
         "hossaini.bootstrap-intellisense",
-        "scottsauber.blazorsnippets"
+        "scottsauber.blazorsnippets",
+        "abusaidm.html-snippets"
     ]
 }
