@@ -1,0 +1,22 @@
+@page "/UsingJs"
+
+@inject IJSRuntime JSRuntime
+
+<h1>hi</h1>
+<button class="btn btn-primary" @onclick="showAlert">show alert</button>
+<button class="btn btn-success" @onclick="customfunction"> custom function</button>
+<button class="btn btn-info" @onclick="customeParamFunction"> customeParamFunction</button>
+@code {
+    private async Task showAlert()
+    {
+        await JSRuntime.InvokeVoidAsync("alert", "hello from blazor");
+    }
+    private async Task customfunction()
+    {
+        await JSRuntime.InvokeVoidAsync("customfunction");
+    }
+    private async Task customeParamFunction()
+    {
+        await JSRuntime.InvokeVoidAsync("customeParamFunction", "custome in here", "from balzor");
+    }
+}

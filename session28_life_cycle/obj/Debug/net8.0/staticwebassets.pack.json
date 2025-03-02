@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
       "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

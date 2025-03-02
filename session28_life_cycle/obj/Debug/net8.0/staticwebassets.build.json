@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QmPOaMk4soTPVUOzYeRoG8uMjUuRm9PVatU5l/nJLjY=",
+  "Hash": "WUUxPOw3RBrjuklMoSm5sp689cbbzemM00HhpE/jmlA=",
   "Source": "session28_life_cycle",
   "BasePath": "/",
   "Mode": "Root",
@@ -7919,6 +7919,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\js\\site.js",
+      "SourceId": "session28_life_cycle",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session28_life_cycle\\wwwroot\\sample-data\\weather.json",
