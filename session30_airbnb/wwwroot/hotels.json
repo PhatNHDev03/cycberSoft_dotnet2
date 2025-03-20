@@ -1,0 +1,36 @@
+{
+    "HotelsByCity": {
+        "Paris": [
+            {
+                "Name": "Cosy Room in Marais",
+                "ImageUrl": "images/1.webp",
+                "Link": "https://www.airbnb.com/rooms/30728079",
+                "Rating": 4,
+                "Description": "One spacious room in a modern apartment in the center of Paris, near Georges Pompidou Center."
+            },
+            {
+                "Name": "Charming Studio near Eiffel Tower",
+                "ImageUrl": "images/2.webp",
+                "Link": "https://www.airbnb.com/rooms/11223344",
+                "Rating": 5,
+                "Description": "A lovely studio with a great view of the Eiffel Tower."
+            }
+        ],
+        "London": [
+            {
+                "Name": "Luxury Apartment in London",
+                "ImageUrl": "images/5.webp",
+                "Link": "https://www.airbnb.com/rooms/22334455",
+                "Rating": 5,
+                "Description": "A stunning apartment with a breathtaking view of the River Thames."
+            },
+            {
+                "Name": "Cozy Flat in Notting Hill",
+                "ImageUrl": "images/6.webp",
+                "Link": "https://www.airbnb.com/rooms/33445566",
+                "Rating": 4,
+                "Description": "A charming flat in the heart of Notting Hill."
+            }
+        ]
+    }
+}

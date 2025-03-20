@@ -1,0 +1,33 @@
+﻿@page "/"
+@inject HotelService HotelService;
+
+<div>
+    <h1>AirBnb</h1>
+
+    <LocationSection Title="Paris" Hotels="@ParisHotels" IsLoading="@IsLoading" />
+    <LocationSection Title="London" Hotels="@LondonHotels" IsLoading="@IsLoading" />
+</div>
+
+@code {
+
+    @* define biến để lưu dữ liệu *@
+    private List<HotelModel> ParisHotels = new();
+    private List<HotelModel> LondonHotels = new();
+
+    private bool IsLoading = true;
+
+    @* life cycle *@
+    @* ban đầu thì component sẽ gọi hàm OnInitializedAsync hoặc OnInitialized *@
+    @* override lại hàm này để call aPI và lấy dữ liệu về *@
+    protected override async Task OnInitializedAsync()
+    {
+
+
+        @* tạo delay khoảng 2s*@
+        await Task.Delay(2000);
+
+        ParisHotels = await HotelService.GetHotelByCityAsync("Paris");
+        LondonHotels = await HotelService.GetHotelByCityAsync("London");
+        IsLoading = false;
+    }
+}

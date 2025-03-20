@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assigment27", "assigment27\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session28_life_cycle", "session28_life_cycle\session28_life_cycle.csproj", "{0A650B50-F6C8-4287-863A-A966C304231D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session30_airbnb", "session30_airbnb\session30_airbnb.csproj", "{82807B55-724A-4A92-95B5-20C522E5703F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{0A650B50-F6C8-4287-863A-A966C304231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A650B50-F6C8-4287-863A-A966C304231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A650B50-F6C8-4287-863A-A966C304231D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82807B55-724A-4A92-95B5-20C522E5703F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82807B55-724A-4A92-95B5-20C522E5703F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82807B55-724A-4A92-95B5-20C522E5703F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82807B55-724A-4A92-95B5-20C522E5703F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

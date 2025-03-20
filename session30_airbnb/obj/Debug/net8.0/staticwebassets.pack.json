@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\obj\\Debug\\net8.0\\compressed\\oed26q57z5.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\session30_airbnb.styles.css",
+      "PackagePath": "staticwebassets\\session30_airbnb.styles.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\hotels.json",
+      "PackagePath": "staticwebassets\\hotels.json"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\1.webp",
+      "PackagePath": "staticwebassets\\images\\1.webp"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\2.webp",
+      "PackagePath": "staticwebassets\\images\\2.webp"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\5.webp",
+      "PackagePath": "staticwebassets\\images\\5.webp"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\6.webp",
+      "PackagePath": "staticwebassets\\images\\6.webp"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\7.webp",
+      "PackagePath": "staticwebassets\\images\\7.webp"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\8.webp",
+      "PackagePath": "staticwebassets\\images\\8.webp"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session30_airbnb\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.session30_airbnb.props",
+      "PackagePath": "build\\session30_airbnb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.session30_airbnb.props",
+      "PackagePath": "buildMultiTargeting\\session30_airbnb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.session30_airbnb.props",
+      "PackagePath": "buildTransitive\\session30_airbnb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.session30_airbnb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

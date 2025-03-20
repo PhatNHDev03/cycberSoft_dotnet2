@@ -1,0 +1,86 @@
+@page "/feedback"
+@using System.ComponentModel.DataAnnotations
+@inject IJSRuntime JSRunTime
+<div class="container mt-4">
+    <h1 class="text-center">Feedback</h1>
+    @* tao form *@
+    <div>
+        <EditForm Model="@feedbackModel" OnValidSubmit="@HandleValidSubmit">
+            <DataAnnotationsValidator />
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="cleaniness" class="form-label">cleaniness</label>
+                    <input @bind="feedbackModel.Cleaniness" type="range" class="form-range" min="0" max="10" step="0.5">
+                </div>
+                <div class="col-md-6">
+                    <label for="staff" class="form-label">staff</label>
+                    <input @bind="feedbackModel.Staff" type="range" class="form-range" min="0" max="=10" step="0.5">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="Comfort" class="form-label">Comfort</label>
+                    <input @bind="feedbackModel.Comfort" type="range" class="form-range" min="0" max="10" step="0.5">
+                </div>
+                <div class="col-md-6">
+                    <label for="Value" class="form-label">Value</label>
+                    <input @bind="feedbackModel.Value" type="range" class="form-range" min="0" max="=10" step="0.5">
+                </div>
+            </div>
+            <div>
+                <h4>Guest information</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="firstName">first Name</label>
+                        <InputText class="form-control" id="firstName" @bind-Value="feedbackModel.FirstName" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="LastName">first Name</label>
+                        <InputText class="form-control" id="LastName" @bind-Value="feedbackModel.LastName" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="UserName">UserName</label>
+                        <InputText class="form-control" id="UserName" @bind-Value="feedbackModel.UserName" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Email">Email</label>
+                        <InputText class="form-control" id="Email" @bind-Value="feedbackModel.Email" />
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">send feedback</button>
+        </EditForm>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="feedbackModalLabel">Feedback Submitted</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div>
+                <p id="user-name"></p>
+            </div>
+            <div class="modal-body">
+                Thank you! Your feedback has been submitted successfully.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    private FeedbackModel feedbackModel = new();
+    private async Task HandleValidSubmit()
+    {
+        @* send feed back tahnh cong vao thong bao *@
+        await JSRunTime.InvokeVoidAsync("showFeedbackModal", feedbackModel);
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\session30_airbnb.props" />
+</Project>

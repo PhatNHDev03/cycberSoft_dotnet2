@@ -1,0 +1,61 @@
+@if (IsLoading)
+{
+    <div class="text-center my-4">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2 text-secondary">Fetching hotels in @Title...</p>
+    </div>
+}
+else
+{
+    <div>
+        @* heading *@
+        @* fs-1 tang size font len to nhat *@
+
+        <h2 class="fs-1 fw-bold text-secondary">@Title</h2>
+        @* item *@
+        @* chia cac item theo grid *@
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            @foreach (var hotel in Hotels)
+            {
+                <div class="col card">
+                    @* style cai hinh *@
+                    <div class="h-100 ">
+                        <img class="card-img-top" style="height:320px; object-fit: cover;" src="@hotel.ImageUrl" alt="">
+                    </div>
+                    @* style content *@
+                    <div class="card-body">
+                        <h5>
+                            @hotel.Name
+                        </h5>
+                        @* render rating *@
+                        <div class="text-warning mb-2">
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                <span>@(i < hotel.Rating ? "★" : "☆")</span>
+                            }
+                        </div>
+
+                        <p>
+                            @hotel.Description
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+}
+@code {
+    @* để nhạn dữ liệu từ cha cần parameter *@
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public List<HotelModel> Hotels { get; set; } = new List<HotelModel>();
+    [Parameter]
+    public bool IsLoading { get; set; }
+
+
+}
