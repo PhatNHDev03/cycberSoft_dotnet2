@@ -1,0 +1,106 @@
+/* /Pages/Chat.razor.rz.scp.css */
+body[b-9e21pbusj7] {
+    background: #18191A;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container[b-9e21pbusj7] {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 50%;
+    margin: auto;
+    background: #242526;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header[b-9e21pbusj7] {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #3A3B3C;
+}
+
+.chat-box[b-9e21pbusj7] {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages-list[b-9e21pbusj7] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.message[b-9e21pbusj7] {
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 60%;
+}
+
+.message-wrapper[b-9e21pbusj7] {
+    padding: 10px;
+    border-radius: 18px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-sender[b-9e21pbusj7] {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.received[b-9e21pbusj7] {
+    align-self: flex-start;
+}
+
+.received .message-wrapper[b-9e21pbusj7] {
+    background: #3A3B3C;
+    color: white;
+    border-radius: 18px 18px 18px 5px;
+}
+
+.sent[b-9e21pbusj7] {
+    align-self: flex-end;
+}
+
+.sent .message-wrapper[b-9e21pbusj7] {
+    background: #0084ff;
+    color: white;
+    border-radius: 18px 18px 5px 18px;
+}
+
+.chat-input[b-9e21pbusj7] {
+    display: flex;
+    padding: 10px;
+    background: #3A3B3C;
+    border-top: 1px solid #242526;
+    align-items: center;
+}
+
+.input-user[b-9e21pbusj7], .input-message[b-9e21pbusj7] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #4E4F50;
+    color: white;
+}
+
+.btn-send[b-9e21pbusj7] {
+    padding: 10px 15px;
+    background: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

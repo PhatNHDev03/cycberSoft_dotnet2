@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session31_signalR\\session31_signalR.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session31_signalR\\session31_signalR.Client\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\session31_signalR.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\session31_signalR.Client.y15fskf2lx.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session31_signalR\\session31_signalR.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session31_signalR\\session31_signalR.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.session31_signalR.Client.props",
+      "PackagePath": "build\\session31_signalR.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.session31_signalR.Client.props",
+      "PackagePath": "buildMultiTargeting\\session31_signalR.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.session31_signalR.Client.props",
+      "PackagePath": "buildTransitive\\session31_signalR.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.session31_signalR.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.session31_signalR.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

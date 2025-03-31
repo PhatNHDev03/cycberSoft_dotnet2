@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\AssigSession13.csproj",
+      "projectUniqueName": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\AssigSession13.csproj",
       "projectName": "AssigSession13",
-      "projectPath": "d:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\AssigSession13.csproj",
+      "projectPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\AssigSession13.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "d:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\obj\\",
+      "outputPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\AssigSession13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,7 +94,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -116,12 +117,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
