@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using session40_50.Models;
 using session40_52.Models;
 namespace session40_52.Data
 {
@@ -10,7 +11,8 @@ namespace session40_52.Data
         }
 
         //add model enitity
-        public DbSet<Product> products { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 
 }

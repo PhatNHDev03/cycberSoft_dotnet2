@@ -3,6 +3,7 @@
         "adrianwilczynski.blazor-snippet-pack",
         "hossaini.bootstrap-intellisense",
         "scottsauber.blazorsnippets",
-        "abusaidm.html-snippets"
+        "abusaidm.html-snippets",
+        "shd101wyy.markdown-preview-enhanced"
     ]
 }

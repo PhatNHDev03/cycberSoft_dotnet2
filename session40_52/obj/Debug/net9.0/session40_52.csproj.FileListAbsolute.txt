@@ -165,3 +165,6 @@ D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\obj\Debug\net9.0\refint
 D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\obj\Debug\net9.0\session40_52.pdb
 D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\obj\Debug\net9.0\session40_52.genruntimeconfig.cache
 D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\obj\Debug\net9.0\ref\session40_52.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\MailKit.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\MimeKit.dll
