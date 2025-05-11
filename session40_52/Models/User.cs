@@ -20,6 +20,12 @@ namespace session40_50.Models
 
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
+        //them column role
+        public string Role { get; set; } = "User";
+
+        public string? ResetPasswordToken { get; set; } = string.Empty;
+
+        public DateTime? ExpiresTokenResetPassword { get; set; }
 
     }
 }

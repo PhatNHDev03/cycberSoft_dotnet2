@@ -168,3 +168,9 @@ D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\obj\Debug\net9.0\ref\se
 D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\MailKit.dll
 D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\MimeKit.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\StackExchange.Redis.dll
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\session40_52.staticwebassets.runtime.json
+D:\Work_space\cycberSoft\cycberSoft_dotnet2\session40_52\bin\Debug\net9.0\SixLabors.ImageSharp.dll

@@ -16,5 +16,6 @@ namespace session40_52.Interfaces
 
         //  define function DeleteProductAsync
         Task<bool> DeleteProductAsync(int ind);
+
     }
 }
