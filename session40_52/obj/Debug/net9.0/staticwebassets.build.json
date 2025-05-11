@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "6pNCdcsEIlnWNe88OmyPeh5TAzIlHuWXNSmLEU6mwQg=",
+  "Hash": "iykg+bHe7utQKUp9b2s+96c+Woh6GrA53N0KFnxH0BM=",
   "Source": "session40_52",
   "BasePath": "_content/session40_52",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "session40_52\\wwwroot",
+      "Source": "session40_52",
+      "ContentRoot": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session40_52\\wwwroot\\",
+      "BasePath": "_content/session40_52",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

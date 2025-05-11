@@ -3,7 +3,7 @@ namespace session40_52.Models
 {
     public class Product
     {
-         public int ProductID { get; set; }
+        public int ProductID { get; set; }
         public int CategoryID { get; set; }
 
         [Required(ErrorMessage = "Product Name is required")]

@@ -1,4 +1,5 @@
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using session40_50.Models.DTOs;
 
@@ -17,6 +18,7 @@ namespace session40_52.Controllers
             _productsService = productsService;
         }
         [HttpGet]
+
         public async Task<ActionResult<IEnumerable<ProductResponseDTO>>> getAllProduct()
         {
             var products = await _productsService.GetAllProductsAsync();
@@ -28,8 +30,19 @@ namespace session40_52.Controllers
             var product = await _productsService.GetProductByIdAsync(id);
             if (product == null) return NotFound();
             return Ok(product);
+
         }
+        /// <summary>
+        /// Create a new product
+        /// </summary>
+        /// <param name="productDTO">Product data</param>
+        /// <returns>Created product</returns>
+        /// <remarks>
+        /// Only Admin users can create products. If the user is not an Admin, the API will return a 401 Unauthorized response.
+        /// </remarks>
+        [Authorize("AdminOnly")]
         [HttpPost]
+
         public async Task<ActionResult<ProductResponseDTO>> CreateProduct(ProductRequestDTO productDTO)
         {
             // validate model
@@ -54,7 +67,7 @@ namespace session40_52.Controllers
             var createdProduct = await _productsService.CreateProductAsync(productDTO);
             return Ok(createdProduct);
         }
-
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult<ProductResponseDTO>> UpdateProduct(int id, ProductRequestDTO productDTO)
         {

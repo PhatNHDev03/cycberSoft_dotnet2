@@ -18,7 +18,7 @@ namespace session40_50.Models.DTOs
         public string? Token { get; set; }
 
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
-
+        public string role { get; set; } = "User";
     }
 
 }
