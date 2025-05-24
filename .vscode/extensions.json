@@ -4,6 +4,7 @@
         "hossaini.bootstrap-intellisense",
         "scottsauber.blazorsnippets",
         "abusaidm.html-snippets",
-        "shd101wyy.markdown-preview-enhanced"
+        "shd101wyy.markdown-preview-enhanced",
+        "pkief.material-icon-theme"
     ]
 }

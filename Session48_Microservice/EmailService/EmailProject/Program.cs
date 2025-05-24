@@ -8,7 +8,9 @@ builder.Services.AddSwaggerGen();
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddScoped<EmailService>();
+builder.Services.AddSingleton<IEmailservice, EmailService>();
+// KAFKA CONSUMER
+builder.Services.AddHostedService<KafaConsumerService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

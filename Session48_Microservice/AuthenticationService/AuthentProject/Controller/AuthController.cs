@@ -21,6 +21,7 @@ namespace AuthentProject.Controller
             try
             {
                 var response = await _authService.register(request);
+                if (response == null) return BadRequest("Email already exists");
                 return Ok(response);
             }
             catch (Exception ex)

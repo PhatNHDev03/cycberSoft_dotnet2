@@ -6,7 +6,7 @@ using MimeKit;
 namespace EmailProject.Service
 {
 
-    public class EmailService
+    public class EmailService : IEmailservice
     {
         private readonly IConfiguration _configuration;
         public EmailService(IConfiguration configuration)

@@ -11,6 +11,9 @@ builder.Services.AddDbContext<AuthDbContext>(
     o => o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 builder.Services.AddScoped<AuthService>();
+//add kafka producerService
+builder.Services.AddSingleton<KafkaProducerService>();
+
 // add HttpClient for EmailService
 builder.Services.AddHttpClient("EmailService", client =>
 {
