@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session40_52\\wwwroot\\Uploads\\(9c8bd6d8-4a26-4770-9017-06b4f3df8328).png",
+      "PackagePath": "staticwebassets\\Uploads\\(9c8bd6d8-4a26-4770-9017-06b4f3df8328).png"
+    },
+    {
+      "Id": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\session40_52\\wwwroot\\Uploads\\(dc916c81-c975-4ec6-b420-c2b00956db1d).jpg",
+      "PackagePath": "staticwebassets\\Uploads\\(dc916c81-c975-4ec6-b420-c2b00956db1d).jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.session40_52.props",
+      "PackagePath": "build\\session40_52.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.session40_52.props",
+      "PackagePath": "buildMultiTargeting\\session40_52.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.session40_52.props",
+      "PackagePath": "buildTransitive\\session40_52.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.session40_52.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.session40_52.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

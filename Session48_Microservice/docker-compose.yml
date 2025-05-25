@@ -16,6 +16,7 @@ services:
       - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=PLAINTEXT
       - KAFKA_AUTO_CREATE_TOPICS_ENABLE=true
       - KAFKA_CFG_LOG_DIRS=/tmp/kraft-combined-logs
+      - KAFKA_KRAFT_CLUSTER_ID=WYuGT8dQS5CDmVkkgB_WeA
       - ALLOW_PLAINTEXT_LISTENER=yes
     volumes:
       - kafka_data:/bitnami/kafka

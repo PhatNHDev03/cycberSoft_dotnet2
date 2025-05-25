@@ -5319,7 +5319,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\phatp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -5328,14 +5328,14 @@
       "projectUniqueName": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\Session48_Microservice\\AuthenticationService\\AuthentProject\\AuthentProject.csproj",
       "projectName": "AuthentProject",
       "projectPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\Session48_Microservice\\AuthenticationService\\AuthentProject\\AuthentProject.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\phatp\\.nuget\\packages\\",
       "outputPath": "D:\\Work_space\\cycberSoft\\cycberSoft_dotnet2\\Session48_Microservice\\AuthenticationService\\AuthentProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phatp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5345,7 +5345,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\Lenovo\\.nuget\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

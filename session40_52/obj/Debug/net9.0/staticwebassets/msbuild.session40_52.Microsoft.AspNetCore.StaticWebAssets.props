@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\(9c8bd6d8-4a26-4770-9017-06b4f3df8328).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>session40_52</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/session40_52</BasePath>
+      <RelativePath>Uploads/(9c8bd6d8-4a26-4770-9017-06b4f3df8328).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xwrr4m4jlo</Fingerprint>
+      <Integrity>752b53CcjnPUZR/54UJfMhHJQWhPAd1WoBqwSbu1Ls0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\(9c8bd6d8-4a26-4770-9017-06b4f3df8328).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\(dc916c81-c975-4ec6-b420-c2b00956db1d).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>session40_52</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/session40_52</BasePath>
+      <RelativePath>Uploads/(dc916c81-c975-4ec6-b420-c2b00956db1d).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4xqk3o0bjw</Fingerprint>
+      <Integrity>SMgKVwsjke4xLtAsmF7ga58mqCFDJ916rL2UI3oP7cY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\(dc916c81-c975-4ec6-b420-c2b00956db1d).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
